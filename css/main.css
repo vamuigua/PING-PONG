@@ -1,4 +1,7 @@
 /*CONTAINER*/
+body{
+    height: 800px;
+}
 .container{
     font-family: 'Montserrat', sans-serif;
     border: 5px solid #000000;
