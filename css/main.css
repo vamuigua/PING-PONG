@@ -1,5 +1,6 @@
 .container{
     border: 5px solid #000000;
+    background-color: rgb(221, 221, 221);
 }
 .container h1{
     font-size: 50px;
@@ -7,4 +8,9 @@
     background-color: rgb(244, 227, 175);
     height: 140px;
     text-align: center;
+}
+
+.row .col-sm-3{
+    height: 900px;
+    background-color: rgb(127, 196, 142);
 }
