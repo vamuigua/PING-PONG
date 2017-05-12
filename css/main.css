@@ -1,4 +1,6 @@
+/*CONTAINER*/
 .container{
+    font-family: 'Montserrat', sans-serif;
     border: 5px solid #000000;
     background-color: rgb(221, 221, 221);
 }
@@ -10,7 +12,15 @@
     text-align: center;
 }
 
+/*ROWS*/
 .row .col-sm-3{
     height: 900px;
     background-color: rgb(127, 196, 142);
+}
+.row .col-sm-3 h4{
+    color: rgb(244, 227, 175);
+}
+.row .col-sm-3 h5{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
 }

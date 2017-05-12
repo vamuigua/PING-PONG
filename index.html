@@ -6,20 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Main Stylesheet-->
     <link rel="stylesheet" href="css/main.css">
-    <!--Main JS-->
-    <script src="js/main.js"></script>
-    <!--Bootstrap cdn links-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-
+<!--Container-->
 <div class="container">
   <h1>Ping-Pong</h1>
   <div class="row">
+      <!--LEFT COLUMN-->
       <div class="col-sm-3">
-          <h4>About Ping Pong</h4>
+          <h3><b>About Ping Pong</b></h3>
           <h4>Created by:</h4>
           <h5>Kit Fisto</h5>
           <h4>GitHub Username/URL</h4>
@@ -27,9 +24,10 @@
           <h4>Level 2 Test for:</h4>
           <h5>Java</h5>
       </div>
+      <!--RIGHT COLUMN-->
       <div class="col-sm-9">
-          <h4>Let's Play!</h4>
-          <h5>Rules:</h5>
+          <h4><b>Let's Play!</b></h4>
+          <h5><b>Rules:</b></h5>
           <p>Ping Pong will count up your number from 1 with the following exceptions:</p>
           <ol>
               <li>Numbers divisible by 3 become "ping"</li>
@@ -37,9 +35,27 @@
               <li>Numbers divisible by 3 and 5 become "pingpong"</li>
           </ol>
           <p><b>Enter your number here:</b></p>
+          <!--USERINPUT-->
+          <div id="user_input">
+              <input type="text" id="write" name="comment" placeholder="Write your number">
+          </div>
+          <!--BUTTON ACTIVATOR-->
+          <div id="button_activator">
+              <input  id="btn" type="submit" name="submit" value="Ping Pong!" onclick="ping_Pong()">
+          </div>
+          <!--RESULT SECTION-->
+          <h3><b>RESULTS:</b></h3>
+          <div id ="result-display">
+              <input type="text" id="result">
+          </div>
       </div>
     </div>  
 </div>
-
+    <!--Main JS-->
+<script src="js/main.js"></script>
+    <!--Bootstrap cdn links-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html> 
