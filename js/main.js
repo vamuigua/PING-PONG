@@ -3,6 +3,15 @@ Numbers divisible by 3 become "ping"
 Numbers divisible by 5 become "pong"
 Numbers divisible by 3 and 5 become "pingpong"
 */
+
+//FadeIn Function for Title
+function main(){
+    $('.Title').hide();
+    $('.Title').fadeIn(1000);
+}
+
+$(document).ready(main);
+/*
 var user = document.getElementById("numUser");
 var ans = document.getElementById("showAns");
 
@@ -13,3 +22,4 @@ function getResult(){
     ans.innerHTML = "Your answer is: " + toDisplay;
     console.log(toDisplay);  
 }
+*/
