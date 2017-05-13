@@ -29,6 +29,7 @@ function calculate(user) {
             console.log("PONG");
             continue;
         }
+        Result.value = i;
         console.log(i);
     }
 }
