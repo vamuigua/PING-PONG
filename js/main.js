@@ -10,22 +10,22 @@ $(document).ready(main);
 //Function to calculate PING-PONG
 function calculate(user) {
     var user = document.getElementById("numUser").value;
-    var user = parseFloat(user);
+    var user = parseInt(user);
     var Result = document.getElementById("Result");
     //Calculation for Ping, Pong and Ping-Pong!
     for(var i = 1; i <= user; i++){
         if(i % 3===0 && i % 5===0){
-            Result.innerHTML = "PINGPONG";
+            Result.value = "PINGPONG";
             console.log("PINGPONG");
             continue;
         }
         else if(i % 3===0){
-            Result.innerHTML = "PING";
+            Result.value= "PING";
             console.log("PING");
             continue;
         }
         else if(i % 5===0){
-            Result.innerHTML = "PONG";
+            Result.value = "PONG";
             console.log("PONG");
             continue;
         }
