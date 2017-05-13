@@ -8,43 +8,33 @@ $(document).ready(main);
 var ans = document.getElementById("showAns");
 
 
-function calculate(user){
+function calculate(user) {
     var user = document.getElementById("numUser").value;
     var user = parseFloat(user);
-    for(var i=0; i <= user; i++){
-        if(user % 3 === 0){
+    var Result = document.getElementById("Result");
+    //Calculation for Ping, Pong and Ping-Pong!
+    for (var i = 0; i < user; i++){
+        if (user % 3 === 0 && user % 5 === 0) {
+            Result.innerHTML = "PINGPONG!";
+            console.log('pingpong');
+        } else if (user % 3 === 0) {
+            Result.innerHTML = "PING!";
             console.log('ping');
-        }
-        else if(user % 5 === 0){
+        } else if (user % 5 === 0) {
+            Result.innerHTML = "PONG!";
             console.log('pong');
-        }
-        else if(user % 3 === 0 && user % 5 ===0){
-            console.log('pingpong')
-        }
-        else{
+        } else {
+            Result.innerHTML = user + " :Not divisible by either 3 or 5";
             console.log(user + " :Not divisible by either 3 or 5");
-        }      
+        }
     }
 }
 
-function main(){
+function main() {
     $('.Title').hide();
     $('.Title').fadeIn(1500);
-    $('#btn-click').on('click',function(){
+    $('#btn-click').on('click', function () {
         $(this).toggleClass('active-color');
         $(this).text('Ping Pong!');
     })
 }
-
-/*
-var user = document.getElementById("numUser");
-var ans = document.getElementById("showAns");
-
-user.addEventListener("input", getResult);
-
-function getResult(){
-    var toDisplay = parseFloat(user.value) || 0;
-    ans.innerHTML = "Your answer is: " + toDisplay;
-    console.log(toDisplay);  
-}
-*/

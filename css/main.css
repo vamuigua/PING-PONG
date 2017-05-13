@@ -33,3 +33,9 @@ body{
     background-color: chartreuse;
     color: black;
 }
+
+/*RESULT*/
+.Result{
+    border: 3px solid #000000;
+    height: 20px;
+}
