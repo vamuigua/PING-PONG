@@ -8,6 +8,10 @@ Numbers divisible by 3 and 5 become "pingpong"
 function main(){
     $('.Title').hide();
     $('.Title').fadeIn(1000);
+    $('#btn-click').on('click',function(){
+        $('#pot').toggle();
+        $('#btn-click').toggleClass('active-color');
+    })
 }
 
 $(document).ready(main);
