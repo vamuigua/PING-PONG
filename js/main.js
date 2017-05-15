@@ -13,9 +13,11 @@ function calculate(user) {
     var user = parseInt(user);
     var pNum = document.getElementById("pNum");
     //Calculation for Ping, Pong and Ping-Pong!
-    var myArray = [];
-    myArray.push(user);
-    var pVal = "";
+    var myArray = [];       //Empty array
+    myArray.push(user);     //Push user value to myArray
+    var pVal = "";          //Empty Array
+    
+    //For loop to loop through the numbers from 1 till the users number
     for (var i = 1; i <= user; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             pVal += "PINGPONG" + "<br/>";
@@ -27,10 +29,11 @@ function calculate(user) {
             pVal += i + "<br/>";
         }
     }
+    //Print the result
     document.getElementById("pNum").innerHTML = pVal;
 }
 
-
+//Main Function
 function main() {
     $('.Title').hide();
     $('.Title').fadeIn(1500);
