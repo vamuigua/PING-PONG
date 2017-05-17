@@ -14,20 +14,32 @@ body{
     height: 150px;
     text-align: center;
     color: white;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive;*/
 }
 
 /*ROWS*/
 .row .col-sm-3{
     /*height: 900px;*/
-    background-color: rgb(127, 196, 142);
+    background-color: rgb(3, 164, 94);
+    text-align: center;
+}
+.row .col-sm-3 h3{
+    font-family: 'Cabin', sans-serif;
+    color: rgba(0,0,0,0.8);
 }
 .row .col-sm-3 h4{
+    font-size: 20px;
     color: rgb(244, 227, 175);
+    font-family: 'Cabin', sans-serif;
+}
+.row .col-sm-3 h5{
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
 }
 .row .col-sm-9 h5{
     font-size: 15px;
     color: rgb(255, 255, 255);
+    font-family: 'Cabin', sans-serif;
 }
 
 /*Active color for button*/
