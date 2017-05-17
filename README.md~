@@ -48,8 +48,8 @@ __________________
 ## Specifications
 It can count up to the provided number
 <ul>
-<li> **Example input: 2** </li>
-<li> **Example output:[1,2]**</li>
+<li> Example input: 2 </li>
+<li> Example output: [1,2] </li>
 </ul>
 
 __________________
