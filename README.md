@@ -45,6 +45,15 @@ The results are displayed according to certain factors:
 For example: **2** is not divisible by 3 and 5, is **Returned as 2**
 __________________
 
+## Specifications
++ It can count up to the provided number
+<ul>
+<li>**Example input: 2**</li>
+<li>**Example output:[1,2]**</li>
+</ul
+
+__________________
+
 ## Built with
 + **Bootstrap**- Web Framework used
 
