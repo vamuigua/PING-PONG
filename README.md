@@ -10,6 +10,11 @@ Open Terminal and type or copy the link below to your desired directory:
 
 git clone [https://github.com/vamuigua/PING-PONG.git](https://github.com/vamuigua/PING-PONG.git)
 
+OR Just open the link:
+
+[https://github.com/vamuigua/PING-PONG/](https://github.com/vamuigua/PING-PONG/)
+
+
 __________________
 
 ## How to Play
@@ -36,7 +41,8 @@ The results are displayed according to certain factors:
 
 + Numbers **divisible by 15** are replaced with **"pingpong"**
 
-+ Numbers not divisible by either 3 or 15 are returned by its numbers
++ Numbers **NOT** divisible by either 3 or 15 are returned by its numbers,<br>
+For example: **2** is not divisible by 3 and 5, is **Returned as 2**
 __________________
 
 ## Built with
@@ -47,4 +53,6 @@ __________________
 __________________
 
 ## Authors
-+ **Victor Allen**
++ [**Victor Allen**](https://vamuigua.github.io) 
+
+__________________
