@@ -5,14 +5,16 @@ body{
 .container{
     font-family: 'Montserrat', sans-serif;
     border: 5px solid #000000;
-    background-color: rgb(221, 221, 221);
+    background-color: #000000;
 }
 .container h1{
     font-size: 50px;
     padding-top: 50px;
-    background-color: rgb(244, 227, 175);
-    height: 140px;
+    background-color: crimson;
+    height: 150px;
     text-align: center;
+    color: white;
+    font-family: 'Indie Flower', cursive;
 }
 
 /*ROWS*/
