@@ -12,7 +12,7 @@ git clone [https://github.com/vamuigua/PING-PONG.git](https://github.com/vamuigu
 
 OR Just open the link:
 
-[https://github.com/vamuigua/PING-PONG/](https://github.com/vamuigua/PING-PONG/)
+[https://vamuigua.github.io/PING-PONG/](https://vamuigua.github.io/PING-PONG/)
 
 
 __________________
