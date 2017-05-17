@@ -13,38 +13,38 @@ git clone [https://github.com/vamuigua/PING-PONG.git](https://github.com/vamuigu
 __________________
 
 ## How to Play
-*Open the PING-PONG file
+* Open the **PING-PONG** file
 
-*Open the index.html file in your browser
+* Open the **index.html** file in your browser
 
-*Enter any **Number** you would like
+* Enter any **Number** you would like
 
-*The number you enter will be the stopping point for the game
+* The number you enter will be the **stopping point** for the game
 
-*Click the **Ping-Pong** Button
+* Click the **Ping-Pong** Button
 
-*The result is displayed
+* The result is displayed
 
 __________________
 
 ## RESULTS
 The results are displayed according to certain factors:
 
-+Numbers divisible by 3 are replaced with "ping"
++ Numbers **divisible by 3** are replaced with **"ping"**
 
-+Numbers divisible by 5 are replaced with "pong"
++ Numbers **divisible by 5** are replaced with **"pong"**
 
-+Numbers divisible by 15 are replaced with "pingpong"
++ Numbers **divisible by 15** are replaced with **"pingpong"**
 
-+Numbers not
++ Numbers not divisible by either 3 or 15 are returned by its numbers
 __________________
 
 ## Built with
-*Bootstrap - Web Framework used
++ **Bootstrap**- Web Framework used
 
-*Jquery - Javascrept Framework used
++ **Jquery** - Javascrept Framework used
 
 __________________
 
 ## Authors
-**Victor Allen**
++ **Victor Allen**
