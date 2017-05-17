@@ -3,7 +3,6 @@ body{
     height: 800px;
 }
 .container{
-    font-family: 'Montserrat', sans-serif;
     border: 5px solid #000000;
     background-color: #000000;
 }
@@ -14,27 +13,28 @@ body{
     height: 150px;
     text-align: center;
     color: white;
-    font-family: 'Indie Flower', cursive;*/
+    font-family: 'Indie Flower', cursive;
 }
 
 /*ROWS*/
 .row .col-sm-3{
-    /*height: 900px;*/
+    padding: 10px 0;
     background-color: rgb(3, 164, 94);
     text-align: center;
 }
 .row .col-sm-3 h3{
-    font-family: 'Cabin', sans-serif;
-    color: rgba(0,0,0,0.8);
+    font-family: 'Indie Flower', cursive;
+    color: rgba(240, 227, 72,0.8);
 }
 .row .col-sm-3 h4{
     font-size: 20px;
-    color: rgb(244, 227, 175);
-    font-family: 'Cabin', sans-serif;
+    color: rgb(240, 227, 72);
+    font-family: 'Indie Flower', cursive;
 }
 .row .col-sm-3 h5{
     font-size: 18px;
-    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
 }
 .row .col-sm-9 h5{
     font-size: 15px;
