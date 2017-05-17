@@ -1,12 +1,13 @@
 /*CONTAINER*/
-body{
+
+body {
     height: 800px;
 }
-.container{
+.container {
     border: 5px solid #000000;
     background-color: #000000;
 }
-.container h1{
+.container h1 {
     font-size: 50px;
     padding-top: 50px;
     background-color: crimson;
@@ -17,39 +18,69 @@ body{
 }
 
 /*ROWS*/
-.row .col-sm-3{
+
+
+/*Left side*/
+
+.row .col-sm-3 {
+    border: 2px solid white;
     padding: 10px 0;
     background-color: rgb(3, 164, 94);
     text-align: center;
 }
-.row .col-sm-3 h3{
+.row .col-sm-3 h3 {
     font-family: 'Indie Flower', cursive;
-    color: rgba(240, 227, 72,0.8);
+    color: rgba(240, 227, 72, 0.8);
 }
-.row .col-sm-3 h4{
+.row .col-sm-3 h4 {
     font-size: 20px;
     color: rgb(240, 227, 72);
     font-family: 'Indie Flower', cursive;
 }
-.row .col-sm-3 h5{
+.row .col-sm-3 h5 {
     font-size: 18px;
     color: white;
     font-family: 'Titillium Web', sans-serif;
 }
-.row .col-sm-9 h5{
-    font-size: 15px;
+
+/*Right Side*/
+
+.row .col-sm-9 h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
     color: rgb(255, 255, 255);
-    font-family: 'Cabin', sans-serif;
+}
+.row .col-sm-9 h5 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Titillium Web', sans-serif;
+}
+.row .col-sm-9 p,
+li {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.row .col-sm-9 input {
+    border: 2px solid crimson;
+}
+#results h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /*Active color for button*/
-.active-color{
+
+.active-color {
     background-color: chartreuse;
     color: black;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-/*RESULT*/
-#Result{
-    border: 3px solid red;
-    border-radius: 5px;
+/*Foot-End*/
+
+#foot-end h5 {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }

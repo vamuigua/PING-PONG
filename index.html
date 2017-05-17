@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/main.css">
     <!--Font Awesome Link-->
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--Animate.css Link-->
+    <link rel="stylesheet" href="css/animate.css">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
@@ -23,7 +25,7 @@
         </div>
         <div class="row">
             <!--LEFT COLUMN-->
-            <div class="col-sm-3 col-md-3">
+            <div class="col-sm-3 col-md-3 animated fadeInLeft">
                 <h3><b>About Ping Pong</b></h3>
                 <h4>Created by:</h4>
                 <h5>Victor Allen</h5>
@@ -33,7 +35,7 @@
                 <h5>Java</h5>
             </div>
             <!--RIGHT COLUMN-->
-            <div class="col-sm-9 col-md-9">
+            <div class="col-sm-9 col-md-9 animated fadeInUpBig">
                 <h4><b>Let's Play!</b></h4>
                 <h5><b>Rules:</b></h5>
                 <p>Ping Pong will count up your number from 1 with the following exceptions:</p>
@@ -47,11 +49,17 @@
                 <input id="numUser" type="number" name="userinput" placeholder="Write your number">
                 <!--BUTTON-->
                 <button id="btn-click" type="submit" onclick="calculate()">Click ME!</button>
-                <!--ANSWER-->
-                <h3><b>RESULTS:</b></h3>
-                <p id="pNum"></p>
+                <!--RESULTS-->
+                <div id="results">
+                    <h3><b>RESULTS :</b></h3>
+                    <p id="pNum"></p>
+                </div>
             </div>
         </div>
+        <!--Footer-->
+        <footer id="foot-end" class="animated slideInLeft">
+            <h5>@ 2017 <i class="fa fa-ravelry" aria-hidden="true"></i>PING PONG</h5>
+        </footer>
     </div>
     <!--Main JS-->
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
